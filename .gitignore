@@ -88,4 +88,4 @@ typings/
 .dynamodb/
 
 #docs
-.docs/
+docs/
