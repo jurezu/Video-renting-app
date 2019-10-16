@@ -6,9 +6,6 @@
   "scripts": {
     "test": "jest --watchAll --verbose"
   },
-  "jest": {
-    "testEnvironment": "node"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
