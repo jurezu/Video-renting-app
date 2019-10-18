@@ -1,13 +1,13 @@
 {
   "name": "vidly",
   "version": "1.0.0",
-  "description": "",
+  "description": "API for imagenary app",
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --verbose"
   },
   "keywords": [],
-  "author": "",
+  "author": "jurezu",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^3.0.6",
