@@ -89,3 +89,6 @@ typings/
 
 #docs
 docs/
+
+#.DS_Store
+.DS_Store
