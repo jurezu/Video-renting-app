@@ -10,10 +10,7 @@ router.post("/", [auth, validateMiddleware(validate)], async (req, res) => {
   const { error } = validate(req.body);
   if (error) return res.status(400).send(error.details[0].message);
 
-  const rental = await Rental.findOne({
-    "movie._id": req.body.movieId,
-    "customer._id": req.body.customerId
-  });
+  const rental = await Rental.lookup(req.body.customerId, req.body.movieId);
 
   if (!rental) {
     return res
