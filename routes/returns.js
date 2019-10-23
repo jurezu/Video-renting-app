@@ -4,7 +4,6 @@ const { Rental, validate } = require("../models/rental");
 const { Movie } = require("../models/movie");
 const express = require("express");
 const router = express.Router();
-const moment = require("moment");
 const validateMiddleware = require("../middleware/validate");
 router.post("/", [auth, validateMiddleware(validate)], async (req, res) => {
   const { error } = validate(req.body);
@@ -21,9 +20,8 @@ router.post("/", [auth, validateMiddleware(validate)], async (req, res) => {
   if (rental.dateReturned) {
     return res.status(400).send("Movie is already returned.");
   }
-  rental.dateReturned = new Date();
-  rental.rentalFee =
-    rental.movie.dailyRentalRate * moment().diff(rental.dateOut, "days");
+  rental.return();
+
   await rental.save();
   await Movie.updateOne(
     { _id: rental.movie._id },
