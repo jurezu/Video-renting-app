@@ -3,6 +3,8 @@
 This project is the backend of an imaginary video rental app implemented in Node.js.
 It is used for a purpose of learning node.js.
 
+This backend app is deployed on: https://murmuring-shore-63011.herokuapp.com
+
 ## Setup
 
 ### Install MongoDB
@@ -35,7 +37,7 @@ All tests should pass.
 
     node index.js
 
-This will launch the Node server on port 3900. If that port is busy, you can set a different point in config/default.json.
+This will launch the Node server on port 3000. If that port is busy, you can set a different point in config/default.json.
 
 Open up your browser and head over to:
 
