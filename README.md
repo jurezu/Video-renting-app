@@ -37,11 +37,11 @@ All tests should pass.
 
     node index.js
 
-This will launch the Node server on port 3000. If that port is busy, you can set a different point in config/default.json.
+This will launch the Node server on port 3023. If that port is busy, you can set a different point in config/default.json.
 
 Open up your browser and head over to:
 
-http://localhost:3000/api/genres
+http://localhost:3023/api/genres
 
 You should see the list of genres. That confirms that you have set up everything successfully.
 
@@ -51,8 +51,8 @@ If you look at config/default.json, you'll see a property called jwtPrivateKey. 
 
 On Mac:
 
-    export vidly_jwtPrivateKey=yourSecureKey
+    export video_renting_jwtPrivateKey=yourSecureKey
 
 On Windows:
 
-    set vidly_jwtPrivateKey=yourSecureKey
+    set video_renting_jwtPrivateKey=yourSecureKey

@@ -1,4 +1,4 @@
 {
-  "jwtPrivateKey": "app_jwtPrivateKey",
-  "db": "app_db"
+  "jwtPrivateKey": "video_renting_jwtPrivateKey",
+  "db": "video_renting_db"
 }

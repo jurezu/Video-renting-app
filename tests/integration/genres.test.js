@@ -16,7 +16,10 @@ describe("/api/genres", () => {
   });
   describe("GET /", () => {
     it("Should return all genres", async () => {
-      await Genre.collection.insertMany([{ name: "ante1" }, { name: "ante2" }]);
+      await Genre.collection.insertMany([
+        { name: "genre1" },
+        { name: "genre2" }
+      ]);
       const res = await request(server).get("/api/genres");
       expect(res.status).toBe(200);
       expect(res.body.length).toBe(2);

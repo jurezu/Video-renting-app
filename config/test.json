@@ -1,4 +1,6 @@
 {
   "jwtPrivateKey": "1234",
-  "db": "mongodb://localhost/vidly_tests"
+  "db": "mongodb://localhost/video_renting_tests",
+  "port": "3023",
+  "requiresAuth": true
 }
