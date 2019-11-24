@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/jurezu/Video-renting-app.svg?branch=master)](https://travis-ci.com/jurezu/Video-renting-app)
+ [![Coverage Status](https://coveralls.io/repos/github/jurezu/Video-renting-app/badge.svg?branch=master)](https://coveralls.io/github/jurezu/Video-renting-app?branch=master)
 
 ## Introduction
 
