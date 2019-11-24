@@ -2,5 +2,5 @@
   "jwtPrivateKey": "unsecureKey",
   "db": "mongodb://localhost/video_renting_db",
   "port": "3023",
-  "requiresAuth": false
+  "requiresAuth": true
 }
