@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "stable"
-script: jest --verbose --coverage --runInBand
+script: npm test
 services: mongodb
 cache:
   directories:
