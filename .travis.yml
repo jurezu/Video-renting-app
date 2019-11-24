@@ -1,6 +1,8 @@
-before_install:
-  - npm i -g npm
 language: node_js
 node_js:
-  - lts/*
+  - "stable"
 script: npm test
+services: mongodb
+cache:
+  directories:
+    - "node_modules"
