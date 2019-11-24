@@ -92,3 +92,6 @@ docs/
 
 #.DS_Store
 .DS_Store
+
+#coveraalls
+.coveraalls.yml
