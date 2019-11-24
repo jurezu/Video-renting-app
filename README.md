@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jurezu/Video-renting-app.svg?branch=master)](https://travis-ci.com/jurezu/Video-renting-app)
+
 ## Introduction
 
 This project is the backend of an imaginary video rental app implemented in Node.js.
